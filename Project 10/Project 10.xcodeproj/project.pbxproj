@@ -13,6 +13,7 @@
 		8F3E8DC428170394007A8FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E8DC228170394007A8FBC /* Main.storyboard */; };
 		8F3E8DC628170395007A8FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E8DC528170395007A8FBC /* Assets.xcassets */; };
 		8F3E8DC928170395007A8FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E8DC728170395007A8FBC /* LaunchScreen.storyboard */; };
+		8F3E8DD1281A8761007A8FBC /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E8DD0281A8761007A8FBC /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F3E8DC528170395007A8FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3E8DC828170395007A8FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3E8DCA28170395007A8FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3E8DD0281A8761007A8FBC /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 				8F3E8DBC28170394007A8FBC /* AppDelegate.swift */,
 				8F3E8DBE28170394007A8FBC /* SceneDelegate.swift */,
 				8F3E8DC028170394007A8FBC /* ViewController.swift */,
-				8F3E8DC228170394007A8FBC /* Main.storyboard */,
+				8F3E8DD0281A8761007A8FBC /* PersonCell.swift */,
 				8F3E8DC528170395007A8FBC /* Assets.xcassets */,
+				8F3E8DC228170394007A8FBC /* Main.storyboard */,
 				8F3E8DC728170395007A8FBC /* LaunchScreen.storyboard */,
 				8F3E8DCA28170395007A8FBC /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				8F3E8DC128170394007A8FBC /* ViewController.swift in Sources */,
 				8F3E8DBD28170394007A8FBC /* AppDelegate.swift in Sources */,
+				8F3E8DD1281A8761007A8FBC /* PersonCell.swift in Sources */,
 				8F3E8DBF28170394007A8FBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
