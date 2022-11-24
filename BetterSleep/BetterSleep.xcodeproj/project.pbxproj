@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F4F3798292F7EFA008A0F91 /* BetterSleepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F3797292F7EFA008A0F91 /* BetterSleepApp.swift */; };
+		8F4F379A292F7EFA008A0F91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F3799292F7EFA008A0F91 /* ContentView.swift */; };
+		8F4F379C292F7EFB008A0F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4F379B292F7EFB008A0F91 /* Assets.xcassets */; };
+		8F4F379F292F7EFB008A0F91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4F379E292F7EFB008A0F91 /* Preview Assets.xcassets */; };
+		8F4F37A9292F7EFB008A0F91 /* BetterSleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F37A8292F7EFB008A0F91 /* BetterSleepTests.swift */; };
+		8F4F37B3292F7EFB008A0F91 /* BetterSleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F37B2292F7EFB008A0F91 /* BetterSleepUITests.swift */; };
+		8F4F37B5292F7EFB008A0F91 /* BetterSleepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F37B4292F7EFB008A0F91 /* BetterSleepUITestsLaunchTests.swift */; };
+		8F4F37C4292FB5EB008A0F91 /* SleepCalculator.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F37C3292FB5EB008A0F91 /* SleepCalculator.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F4F37A5292F7EFB008A0F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F4F378C292F7EFA008A0F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4F3793292F7EFA008A0F91;
+			remoteInfo = BetterSleep;
+		};
+		8F4F37AF292F7EFB008A0F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F4F378C292F7EFA008A0F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4F3793292F7EFA008A0F91;
+			remoteInfo = BetterSleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F4F3794292F7EFA008A0F91 /* BetterSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4F3797292F7EFA008A0F91 /* BetterSleepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepApp.swift; sourceTree = "<group>"; };
+		8F4F3799292F7EFA008A0F91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F4F379B292F7EFB008A0F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4F379E292F7EFB008A0F91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F4F37A4292F7EFB008A0F91 /* BetterSleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4F37A8292F7EFB008A0F91 /* BetterSleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepTests.swift; sourceTree = "<group>"; };
+		8F4F37AE292F7EFB008A0F91 /* BetterSleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4F37B2292F7EFB008A0F91 /* BetterSleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepUITests.swift; sourceTree = "<group>"; };
+		8F4F37B4292F7EFB008A0F91 /* BetterSleepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F4F37C3292FB5EB008A0F91 /* SleepCalculator.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = SleepCalculator.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4F3791292F7EFA008A0F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37A1292F7EFB008A0F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37AB292F7EFB008A0F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F4F378B292F7EFA008A0F91 = {
+			isa = PBXGroup;
+			children = (
+				8F4F3796292F7EFA008A0F91 /* BetterSleep */,
+				8F4F37A7292F7EFB008A0F91 /* BetterSleepTests */,
+				8F4F37B1292F7EFB008A0F91 /* BetterSleepUITests */,
+				8F4F3795292F7EFA008A0F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4F3795292F7EFA008A0F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4F3794292F7EFA008A0F91 /* BetterSleep.app */,
+				8F4F37A4292F7EFB008A0F91 /* BetterSleepTests.xctest */,
+				8F4F37AE292F7EFB008A0F91 /* BetterSleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4F3796292F7EFA008A0F91 /* BetterSleep */ = {
+			isa = PBXGroup;
+			children = (
+				8F4F37C3292FB5EB008A0F91 /* SleepCalculator.mlpackage */,
+				8F4F3797292F7EFA008A0F91 /* BetterSleepApp.swift */,
+				8F4F3799292F7EFA008A0F91 /* ContentView.swift */,
+				8F4F379B292F7EFB008A0F91 /* Assets.xcassets */,
+				8F4F379D292F7EFB008A0F91 /* Preview Content */,
+			);
+			path = BetterSleep;
+			sourceTree = "<group>";
+		};
+		8F4F379D292F7EFB008A0F91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F4F379E292F7EFB008A0F91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F4F37A7292F7EFB008A0F91 /* BetterSleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F4F37A8292F7EFB008A0F91 /* BetterSleepTests.swift */,
+			);
+			path = BetterSleepTests;
+			sourceTree = "<group>";
+		};
+		8F4F37B1292F7EFB008A0F91 /* BetterSleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F4F37B2292F7EFB008A0F91 /* BetterSleepUITests.swift */,
+				8F4F37B4292F7EFB008A0F91 /* BetterSleepUITestsLaunchTests.swift */,
+			);
+			path = BetterSleepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4F3793292F7EFA008A0F91 /* BetterSleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4F37B8292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleep" */;
+			buildPhases = (
+				8F4F3790292F7EFA008A0F91 /* Sources */,
+				8F4F3791292F7EFA008A0F91 /* Frameworks */,
+				8F4F3792292F7EFA008A0F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSleep;
+			productName = BetterSleep;
+			productReference = 8F4F3794292F7EFA008A0F91 /* BetterSleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F4F37A3292F7EFB008A0F91 /* BetterSleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4F37BB292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleepTests" */;
+			buildPhases = (
+				8F4F37A0292F7EFB008A0F91 /* Sources */,
+				8F4F37A1292F7EFB008A0F91 /* Frameworks */,
+				8F4F37A2292F7EFB008A0F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F4F37A6292F7EFB008A0F91 /* PBXTargetDependency */,
+			);
+			name = BetterSleepTests;
+			productName = BetterSleepTests;
+			productReference = 8F4F37A4292F7EFB008A0F91 /* BetterSleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F4F37AD292F7EFB008A0F91 /* BetterSleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4F37BE292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleepUITests" */;
+			buildPhases = (
+				8F4F37AA292F7EFB008A0F91 /* Sources */,
+				8F4F37AB292F7EFB008A0F91 /* Frameworks */,
+				8F4F37AC292F7EFB008A0F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F4F37B0292F7EFB008A0F91 /* PBXTargetDependency */,
+			);
+			name = BetterSleepUITests;
+			productName = BetterSleepUITests;
+			productReference = 8F4F37AE292F7EFB008A0F91 /* BetterSleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F4F378C292F7EFA008A0F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8F4F3793292F7EFA008A0F91 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8F4F37A3292F7EFB008A0F91 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8F4F3793292F7EFA008A0F91;
+					};
+					8F4F37AD292F7EFB008A0F91 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8F4F3793292F7EFA008A0F91;
+					};
+				};
+			};
+			buildConfigurationList = 8F4F378F292F7EFA008A0F91 /* Build configuration list for PBXProject "BetterSleep" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F4F378B292F7EFA008A0F91;
+			productRefGroup = 8F4F3795292F7EFA008A0F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4F3793292F7EFA008A0F91 /* BetterSleep */,
+				8F4F37A3292F7EFB008A0F91 /* BetterSleepTests */,
+				8F4F37AD292F7EFB008A0F91 /* BetterSleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4F3792292F7EFA008A0F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4F379F292F7EFB008A0F91 /* Preview Assets.xcassets in Resources */,
+				8F4F379C292F7EFB008A0F91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37A2292F7EFB008A0F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37AC292F7EFB008A0F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F4F3790292F7EFA008A0F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4F379A292F7EFA008A0F91 /* ContentView.swift in Sources */,
+				8F4F37C4292FB5EB008A0F91 /* SleepCalculator.mlpackage in Sources */,
+				8F4F3798292F7EFA008A0F91 /* BetterSleepApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37A0292F7EFB008A0F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4F37A9292F7EFB008A0F91 /* BetterSleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4F37AA292F7EFB008A0F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4F37B5292F7EFB008A0F91 /* BetterSleepUITestsLaunchTests.swift in Sources */,
+				8F4F37B3292F7EFB008A0F91 /* BetterSleepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F4F37A6292F7EFB008A0F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4F3793292F7EFA008A0F91 /* BetterSleep */;
+			targetProxy = 8F4F37A5292F7EFB008A0F91 /* PBXContainerItemProxy */;
+		};
+		8F4F37B0292F7EFB008A0F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4F3793292F7EFA008A0F91 /* BetterSleep */;
+			targetProxy = 8F4F37AF292F7EFB008A0F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F4F37B6292F7EFB008A0F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F4F37B7292F7EFB008A0F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F4F37B9292F7EFB008A0F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSleep/Preview Content\"";
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F4F37BA292F7EFB008A0F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSleep/Preview Content\"";
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F4F37BC292F7EFB008A0F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSleep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSleep";
+			};
+			name = Debug;
+		};
+		8F4F37BD292F7EFB008A0F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSleep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSleep";
+			};
+			name = Release;
+		};
+		8F4F37BF292F7EFB008A0F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterSleep;
+			};
+			name = Debug;
+		};
+		8F4F37C0292F7EFB008A0F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EH8PU9789P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PA.BetterSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterSleep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F4F378F292F7EFA008A0F91 /* Build configuration list for PBXProject "BetterSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4F37B6292F7EFB008A0F91 /* Debug */,
+				8F4F37B7292F7EFB008A0F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4F37B8292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4F37B9292F7EFB008A0F91 /* Debug */,
+				8F4F37BA292F7EFB008A0F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4F37BB292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4F37BC292F7EFB008A0F91 /* Debug */,
+				8F4F37BD292F7EFB008A0F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4F37BE292F7EFB008A0F91 /* Build configuration list for PBXNativeTarget "BetterSleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4F37BF292F7EFB008A0F91 /* Debug */,
+				8F4F37C0292F7EFB008A0F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F4F378C292F7EFA008A0F91 /* Project object */;
+}
