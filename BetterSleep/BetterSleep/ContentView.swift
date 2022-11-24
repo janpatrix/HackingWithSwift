@@ -24,6 +24,8 @@ struct ContentView: View {
     @State private var alertTitle = ""
     @State private var alertMessage = ""
     @State private var showingAlert = false
+    @State private var selection = 1
+    var arr = 1...20
         
 
 
@@ -39,23 +41,26 @@ struct ContentView: View {
                 
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Desired amount of sleep").font(.headline)
-                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25) { _ in calculateBedtime() }
                 }
+
                 
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Daily coffee intake").font(.headline)
-                    Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount.formatted()) cups", value: $coffeeAmount, in: 1...20)
+                    Picker("Please select our daily ration", selection: $selection) {
+                        ForEach(1 ..< 20) {
+                            Text($0 == 1 ? "1 cup" : "\($0) cups" )
+                        }
+                    }.onReceive([self].publisher.first()) {_ in calculateBedtime() }
+                }
+                
+                VStack(alignment: .leading,spacing: 0) {
+                    
+                    Text("Your ideal bedtime is..." + alertMessage).font(.headline)
                 }
             }
             .navigationTitle("Better Rest")
-            .toolbar{
-                Button("Calculate", action: calculateBedtime)
-                    .alert(alertTitle, isPresented: $showingAlert) {
-                        Button("OK") {}
-                    } message: {
-                        Text(alertMessage)
-                    }
-            }
+    
         }
     }
     
@@ -68,7 +73,7 @@ struct ContentView: View {
             let hour = (components.hour ?? 0) * 60 * 60
             let minute = (components.minute ?? 0) * 60
             
-            let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
+            let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(selection))
             let sleepTime = wakeUp - prediction.actualSleep
             
             alertTitle = "Your ideal bedtime is..."
