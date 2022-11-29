@@ -27,12 +27,22 @@ struct ContentView: View {
         }
         
         guard isPossible(word: answer) else {
-            wordError(title: "Word not possible", message: "You cannnot spell that word from '\(rootWord)'!")
+            wordError(title: "Word not possible", message: "You can't spell that word from '\(rootWord)'!")
             return
         }
         
         guard isReal(word: answer) else {
-            wordError(title: "Word is not recognized", message: "You cannot just make them up, you know!")
+            wordError(title: "Word is not recognized", message: "You can't just make them up, you know!")
+            return
+        }
+        
+        guard isSame(word: answer) else {
+            wordError(title: "Word is same", message: "The word is the same as the original word")
+            return
+        }
+        
+        guard isTooShort(word: answer) else {
+            wordError(title: "Word is too short", message: "Please select a word that has at least 3 letters")
             return
         }
         
@@ -55,6 +65,14 @@ struct ContentView: View {
     
     func isOriginal(word: String) -> Bool {
         !usedWords.contains(word)
+    }
+    
+    func isSame(word: String) -> Bool {
+        !(word == rootWord)
+    }
+    
+    func isTooShort(word: String) -> Bool {
+        word.count >= 3
     }
     
     func isPossible(word: String) -> Bool {
